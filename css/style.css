@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1180px;
+  height: 80px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header {
+  height: 80px;
+  background-color: blue;
+}
+
+.logo, .main-nav {
+  float: left;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav ul li {
+  display: inline-block;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#accedi {
+  float: right;
+}
+
