@@ -1,14 +1,24 @@
+/* generle rules */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container {
-  width: 90%;
-  max-width: 1180px;
+body{
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #23272a;
+}
+
+header{
   height: 80px;
-  border: 1px solid black;
+}
+
+
+.container{
+  width: 90%;
+  max-width: 1180px; 
   margin: 0 auto;
 }
 
@@ -18,30 +28,122 @@
   clear: both;
 }
 
-header {
-  height: 80px;
-  background-color: blue;
+.btn{
+  font-size: 14px;
+  color: black;
+  padding: 10px 15px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 40px;
 }
 
-.logo, .main-nav {
+.btn.big{
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.btn.black{
+  background-color: black;
+  color: white;
+}
+
+.btn:hover{
+  color:cornflowerblue;
+}
+
+
+
+/* HEADER */
+header{
+  height: 80px;
+  background-color: #3161E0;
+  line-height: 80px;
+}
+
+/* logo */
+.logo, .main-nav{
   float: left;
 }
 
-.main-nav ul {
+.logo img{
+  vertical-align: middle;
+}
+
+.main-nav{
+  width: calc(100% - 202px);
+  text-align: center;
+}
+
+
+/* menu */
+.main-nav ul{
   list-style: none;
 }
 
-.main-nav ul li {
+.main-nav ul li{
+  padding: 0 15px;
   display: inline-block;
 }
 
-.main-nav ul li a {
+.main-nav ul li a{
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
 
-#accedi {
+.main-nav ul li a:hover{
+  text-decoration: underline;
+}
+
+#accedi{
   float: right;
+}
+
+/* jumbo */
+
+.jumbotron{
+  height: 547px;
+  background-image: url('../css/img/img/jumbo.png');
+  background-size: cover;
+}
+
+.jumbotron .container{
+  max-width: 800px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.jumbotron h1{
+  font-size: 53px;
+  margin-bottom: 40px;
+}
+
+.jumbotron p{
+  margin-bottom: 30px;
+  line-height: 35px;
+}
+
+.jumbotron .btn:first-of-type{
+  margin-right: 20px;
+}
+
+
+/* main */
+
+.main-item {
+  float: left;
+  width: 50%;
+  margin-right: 120px;
+}
+
+.main-title {
+  font-size: 55px;
+  padding: 30px;
+  line-height: 55px;
+}
+
+.main-subtitle {
+  font-size: 20px;
 }
 
