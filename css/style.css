@@ -152,3 +152,14 @@ header{
   margin-top: 30px;
 }
 
+.left-side-box2 {
+  float: left;
+  width: 30%;
+  margin-top: 38px;
+}
+
+.right-side-box2 {
+  float: right;
+  width: 20%;
+}
+
