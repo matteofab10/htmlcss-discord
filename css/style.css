@@ -131,15 +131,19 @@ header{
 
 /* main */
 
-.main-item {
+.left-side {
   float: left;
-  width: 50%;
-  margin-right: 120px;
+  width: 30%;
+}
+
+.right-side {
+  float: right;
+  width: 30%;
 }
 
 .main-title {
   font-size: 55px;
-  padding: 30px;
+  padding: 34px;
   line-height: 55px;
 }
 
