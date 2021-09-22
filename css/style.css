@@ -133,12 +133,19 @@ header{
 
 .left-side {
   float: left;
-  width: 20%;
+  width: 50%;
 }
 
 .right-side {
   float: right;
-  width: 30%;
+  width: 50%;
+}
+
+.ls-logo {
+  width: 100%;
+}
+
+.text {
   margin-top: 38px;
 }
 
@@ -152,14 +159,29 @@ header{
   margin-top: 30px;
 }
 
-.left-side-box2 {
-  float: left;
-  width: 30%;
-  margin-top: 38px;
+.text-down {
+  text-align: center;
 }
 
-.right-side-box2 {
-  float: right;
-  width: 20%;
+.down-side {
+  text-align: center;
 }
 
+.down-title {
+  width: 100%;
+  line-height: 50px;
+}
+
+.stars-title {
+  width: 60%;
+  text-align: center;
+  background-image: url('../css/img/img/stars.svg');
+  background-size: cover;
+  margin: 10px auto;
+}
+
+.btn.big2{
+  background-color: cadetblue;
+  font-size: 18px;
+  padding: 15px 20px;
+}
